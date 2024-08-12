@@ -2,8 +2,8 @@ import streamlit as st
 from utils import load_data, preprocess_data, calculate_payment_probability
 import plotly.graph_objects as go
 
-st.title("Payment Probability by Order Amount Range")
 st.set_page_config(layout="wide")  # Set the layout to wide
+st.title("Payment Probability by Order Amount Range")
 
 df = load_data()
 df = preprocess_data(df)
