@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 from utils import load_data, preprocess_data, calculate_offers_by_attorney
 
 st.title("Offers by Attorney")
+st.set_page_config(layout="wide")  # Set the layout to wide
 
 df = load_data()
 df = preprocess_data(df)
