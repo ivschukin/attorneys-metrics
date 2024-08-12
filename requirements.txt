@@ -7,3 +7,4 @@ db-dtypes
 pandas
 numpy
 plotly
+google-auth
