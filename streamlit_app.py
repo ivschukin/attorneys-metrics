@@ -1,7 +1,5 @@
 import streamlit as st
-import os
 import json
-import pandas as pd
 import matplotlib.pyplot as plt
 from google.cloud import bigquery
 from google.oauth2 import service_account
@@ -9,7 +7,6 @@ import re
 import json5
 import ast
 
-# Load the secret from Streamlit's secrets management
 raw_json_str = st.secrets["general"]["GOOGLE_APPLICATION_CREDENTIALS"]
 
 def smart_json_parser(raw_json_str):
