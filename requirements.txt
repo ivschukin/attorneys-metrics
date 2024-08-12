@@ -1,1 +1,6 @@
 streamlit
+google-cloud
+matplotlib
+google-cloud-bigquery
+json5
+db-dtypes
